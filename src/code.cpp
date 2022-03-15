@@ -7,40 +7,45 @@ namespace assignment {
 
   // Task 1
   int squared_diff(int left, int right) {
-
-    // Write your code here ...
-
-    return 0;
+    int x = left - right;
+    x = x * x;
+    return x;
   }
 
   // Task 2
   bool check_bit(int mask, int bit_pos) {
-
-    // Write your code here ...
-
-    return false;
+    return 0;
   }
 
   // Task 3
   int max3(int left, int middle, int right) {
-
-    // Write your code here ...
-
-    return 0;
+      int x = right;
+        if (x < middle) {
+          x = middle;
+      }
+      if (x < left) {
+        x = left;
+      }
+    return x;
   }
 
   // Task 4
   void swap_args(int *left, int *right) {
-
-    // Write your code here ...
+    return ;
   }
 
   // Task 5
   int arr_sum(int *arr, int length) {
-
-    // Write your code here ...
-
-    return 0;
+    if (length <= 0) {
+      return 0;
+    }if (arr == nullptr) {
+      return 0;
+    }
+    int sum = 0;
+    for (int i = 0; i < length; i++) {
+      sum = sum + arr[i];
+    }
+    return sum;
   }
 
   // Task 6
